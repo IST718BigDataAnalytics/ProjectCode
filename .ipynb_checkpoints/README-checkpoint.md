@@ -15,7 +15,6 @@ into these lines :
 fulldata = pd.read_csv(os.environ.get("TAXI_DATA"))
 weatherdata = pd.read_excel(os.environ.get("WEATHER_DATA"))
 holidaysdata = pd.read_excel(os.environ.get("HOLIDAY_DATA"))
-```
 
 ### Setup the environment variables for Data Path
 
@@ -77,4 +76,9 @@ nbdiff IST 718_Apurva.ipynb IST 718_Sanman.ipynb
 +#fulldata=pd.read_csv("C:/Users/Sanman/IST718 Dropbox/IST 718 Project/Taxi Data/2015-01_100k.csv")
 +#weatherdata = pd.read_excel("C:/Users/Sanman/IST718 Dropbox/IST 718 Project/Weather Data/2015_weather.xlsx")
 +#holidaysdata = pd.read_excel("C:/Users/Sanman/IST718 Dropbox/IST 718 Project/Holiday Data/holidays.xlsx")
+```
+
+and to view these changes in browser instead , run like following :
+```
+$ nbdiff-web IST\ 718_Apurva.ipynb IST\ 718_Sanman.ipynb 
 ```

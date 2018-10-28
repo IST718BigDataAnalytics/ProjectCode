@@ -34,7 +34,47 @@ export HOLIDAY_DATA="/Users/apsharma/IST718 Dropbox/IST 718 Project/Holiday Data
 
 open command line and run anaconda-navigator from there.
 
-```bash
+```console
 $ anaconda-navigator
 ```
 
+### How to compare two notebooks
+
+install xcode-select like this:
+
+```console
+$ xcode-select --install
+```
+
+and then, install [nbdiff](https://github.com/jupyter/nbdime#installation) 
+
+and then, run like following from command line :
+
+
+```diff
+Apurvas-MacBook-Pro:ProjectCode apsharma$ nbdiff IST\ 718_Apurva.ipynb IST\ 718_Sanman.ipynb 
+nbdiff IST 718_Apurva.ipynb IST 718_Sanman.ipynb
+
+--- IST 718_Apurva.ipynb  2018-10-28 10:16:25.199350
++++ IST 718_Sanman.ipynb  2018-10-28 10:21:35.103231
+## deleted /cells/2:
+-  code cell:
+-    execution_count: 7
+-    metadata (known keys):
+-      collapsed: True
+-    source:
+-      #import pandas as pd
+-      #fulldata=pd.read_csv("C:/Users/SHIVANSHI/IST718 Dropbox/IST 718 Project/Taxi Data/2015-01_100k.csv")
+-      #weatherdata = pd.read_excel("C:/Users/SHIVANSHI/IST718 Dropbox/IST 718 Project/Weather Data/2015_weather.xlsx")
+-      #holidaysdata = pd.read_excel("C:/Users/SHIVANSHI/IST718 Dropbox/IST 718 Project/Holiday Data/holidays.xlsx")
+
+## modified /cells/3/source:
+@@ -1,4 +1,4 @@
+ #import pandas as pd
+-#fulldata=pd.read_csv("C:/Users/SHAMA/IST718 Dropbox/IST 718 Project/Taxi Data/2015-01_100k.csv")
+-#weatherdata = pd.read_excel("C:/Users/SHAMA/IST718 Dropbox/IST 718 Project/Weather Data/2015_weather.xlsx")
+-#holidaysdata = pd.read_excel("C:/Users/SHAMA/IST718 Dropbox/IST 718 Project/Holiday Data/holidays.xlsx")
++#fulldata=pd.read_csv("C:/Users/Sanman/IST718 Dropbox/IST 718 Project/Taxi Data/2015-01_100k.csv")
++#weatherdata = pd.read_excel("C:/Users/Sanman/IST718 Dropbox/IST 718 Project/Weather Data/2015_weather.xlsx")
++#holidaysdata = pd.read_excel("C:/Users/Sanman/IST718 Dropbox/IST 718 Project/Holiday Data/holidays.xlsx")
+```

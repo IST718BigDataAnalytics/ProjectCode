@@ -31,7 +31,7 @@ export HOLIDAY_DATA="/Users/apsharma/IST718 Dropbox/IST 718 Project/Holiday Data
 
 ### How to launch the anaconda navigator
 
-open command line and run anaconda-navigator from there.
+From a new command line terminal, run anaconda-navigator everytime.
 
 ```console
 $ anaconda-navigator

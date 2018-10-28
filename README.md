@@ -37,6 +37,12 @@ open command line and run anaconda-navigator from there.
 $ anaconda-navigator
 ```
 
+### Instructions for Github
+
+Please push changes ONLY to your respective notebooks to avoid github conflicts in ipynb files
+
+
+
 ### How to compare two notebooks
 
 install xcode-select like this:
@@ -82,3 +88,5 @@ and to view these changes in browser instead , run like following :
 ```
 $ nbdiff-web IST\ 718_Apurva.ipynb IST\ 718_Sanman.ipynb 
 ```
+
+For more on nbdiff and merging conflicts in ipython notebooks, refer:  [nbdiff documentation](https://nbdime.readthedocs.io/en/latest/cli.html)

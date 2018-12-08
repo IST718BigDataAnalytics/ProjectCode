@@ -1,7 +1,43 @@
-# ProjectCode
-Project Code 
+# About Project : Resurgence of NYC Yellow Cabs
 
-Change these lines :
+- This Project is for course IST 718: Big Data Analytics @ Syracuse University
+- Professor: Daniel Acuna <deacuna@syr.edu>
+
+# Members: ( all contributed towards the concept, end- to end project code, bug free code implementation and documentation)
+-Apurva Sharma 
+-Shama Kamat
+-Shivanshi Bajpai
+-Sanaman Yadav
+
+
+## Objective and Focus:
+
+- Due to advent of smart cab companies such as Uber and Lyft, people are preferring smart services over the traditional taxis in NYC. The research throws light on the following important issues to be the reason in dip in the usage of Yellow taxis
+
+## Requirements:
+- Python 3.7.0.
+- Pandas
+- Numpy
+- Pyspark 2.4.0
+- Spark 2.4.0
+- xgboost 
+- sklearn
+- matplotlib.pyplot
+- seaborn
+- RandomForestRegressor
+- GBTRegressor
+- RegressionEvaluator
+- VectorAssembler
+- ascii_letters
+- datetime
+- StandardScaler
+- MinMaxScaler
+- Vector
+
+## Installation: 
+pip install pyspark
+
+Project Code : In addition to the requirements, we need to Change these lines to read files locally :
 
 ```py
 fulldata = pd.read_csv("/Users/apsharma/IST718 Dropbox/IST 718 Project/Taxi Data/2015-01_100k.csv")
@@ -90,3 +126,5 @@ $ nbdiff-web IST\ 718_Apurva.ipynb IST\ 718_Sanman.ipynb
 ```
 
 For more on nbdiff and merging conflicts in ipython notebooks, refer:  [nbdiff documentation](https://nbdime.readthedocs.io/en/latest/cli.html)
+
+All other installation procedures are mentioned in project code as and when required.

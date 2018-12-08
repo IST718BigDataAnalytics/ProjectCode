@@ -3,12 +3,12 @@
 - This Project is for course IST 718: Big Data Analytics @ Syracuse University
 - Professor: Daniel Acuna <deacuna@syr.edu>
 
-# Members: ( all contributed towards the concept, end- to end project code, bug free code implementation and documentation)
+# Members: 
 -Apurva Sharma 
 -Shama Kamat
 -Shivanshi Bajpai
 -Sanaman Yadav
-
+( all contributed towards the concept, end- to end project code, bug free code implementation and documentation)
 
 ## Objective and Focus:
 

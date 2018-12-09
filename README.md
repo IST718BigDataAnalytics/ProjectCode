@@ -77,7 +77,7 @@ $ anaconda-navigator
 ### Instructions for Github
 
 Please push changes ONLY to your respective notebooks to avoid github conflicts in ipynb files
-
+For final code, please refer only to IST 718_ApurvaSpark_Final_Submit.ipynb
 
 
 ### How to compare two notebooks

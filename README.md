@@ -13,7 +13,7 @@
 
 ## Objective and Focus:
 
-- Due to advent of smart cab companies such as Uber and Lyft, people are preferring smart services over the traditional taxis in NYC. The research throws light on the following important issues to be the reason in dip in the usage of Yellow taxis
+- Due to advent of smart cab companies such as Uber and Lyft, people are preferring smart services over the traditional taxis in NYC. The research throws light on the key drivers for the dip in the usage of Yellow taxis and how to help sustain New York City's icon.
 
 ## Requirements:
 - Python 3.7.0.

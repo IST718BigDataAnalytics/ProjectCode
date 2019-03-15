@@ -1,4 +1,4 @@
-# About Project : Resurgence of NYC Yellow Cabs
+# About Project : Fare and Duration Prediction for NYC Yellow Cabs
 
 - This Project is for course IST 718: Big Data Analytics @ Syracuse University
 - Professor: Daniel Acuna <deacuna@syr.edu>
@@ -10,10 +10,6 @@
 - Sanaman Yadav
 
 - (all members contributed in the concept, end-to-end project code, bug free code implementation and documentation)
-
-## Objective and Focus:
-
-- Due to advent of smart cab companies such as Uber and Lyft, people are preferring smart services over the traditional taxis in NYC. The research throws light on the key drivers for the dip in the usage of Yellow taxis and how to help sustain New York City's icon.
 
 ## Requirements:
 - Python 3.7.0.
